@@ -1,0 +1,1 @@
+rm output/*.exe -Force -ErrorAction SilentlyContinue ; gcc -o output/biblioteca main.c -Wall ; if ($?) { .\output\biblioteca.exe }
